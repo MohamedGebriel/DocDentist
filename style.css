@@ -1,0 +1,122 @@
+#home {
+    background-image: url(IMG-20221129-WA0032.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.item{
+    background:rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100vh;
+}
+.navbar-collapse ul li a:hover{
+    color:rgb(25, 25, 171);
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+    font-size: 20px;
+}
+
+.header-content p::after{
+    content: "|";
+    animation-name:moveletters ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes moveletters{
+    0%{content: "w";}
+    2.5%{content: "we";}
+    5%{content: "wel";}
+    7.5%{content: "welc";}
+    10%{content: "welco";}
+    12.5%{content: "welcom";}
+    15%{content: "welcome";}
+    17.5%{content: "welcom";}
+    20%{content: "welco";}
+    22.5%{content: "welc";}
+    25%{content: "wel";}
+    27.5%{content: "we";}
+    30%{content: "w";}
+    32.5%{content: "";}
+    35%{content: "t";}
+    37.5%{content: "to";}
+    40%{content: "t";}
+    42.5%{content: "";}
+    45%{content: "o";}
+    47.5%{content: "ou";}
+    50%{content: "our";}
+    52.5%{content: "ou";}
+    55%{content: "o";}
+    57.5%{content: "";}
+    60%{content: "h";}
+    62.5%{content: "ho";}
+    65%{content: "hos";}
+    67.5%{content: "hosp";}
+    70%{content: "hospi";}
+    72.5%{content: "hospit";}
+    75%{content: "hospita";}
+    77.5%{content: "hospital";}
+    80%{content: "hospita";}
+    82.5%{content: "hospit";}
+    85%{content: "hospi";}
+    87.5%{content: "hospi";}
+    90%{content: "hosp";}
+    92.5%{content: "hos";}
+    95%{content: "ho";}
+    97.5%{content: "h";}
+    100%{content: "";}
+    
+}
+.section-title h2{
+    color: #f1f1f1;
+    font-size: 50px;
+    letter-spacing: 20px;
+    font-weight: 900;
+}
+#servises h5:hover{
+    cursor: pointer;
+    color: rgb(29, 81, 200);
+}
+#servises img:hover{
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+#servises h4:hover{
+    cursor: pointer;
+    color: rgb(29, 81, 200); 
+}
+#Doctors img:hover{
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+
+}
+#Doctors h4:hover{
+    cursor: pointer;
+}
+#Doctors h5:hover{
+    cursor: pointer;
+}
+ #appointment{
+    background-image: url(IMG-20221129-WA0032.jpg);
+    background-position: center center;
+    background-size: cover;
+} 
+#appointment h3:hover{
+    cursor: pointer;
+}
+#appointment h4:hover{
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    cursor: pointer;;
+    color:  rgb(29, 81, 200);
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+}
+#contact h4:hover{
+    cursor: pointer;
+}
+#contact h3:hover{
+    cursor: pointer;
+}
